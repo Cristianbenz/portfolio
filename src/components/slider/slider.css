@@ -1,0 +1,46 @@
+.slider-size {
+  height: 100%;
+}
+
+.slider-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.slider--button-size {
+  width: 3%;
+}
+
+.slider--button-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center
+}
+
+.slider--button-bg {
+  background-color: antiquewhite;
+}
+
+.slider--button-text {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+  user-select: none;
+}
+
+.slider--img-size {
+  width: 94%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .slider--button-size {
+    width: 10%;
+  }
+
+  .slider--img-size {
+    width: 79.9%;
+    height: 100%;
+  }
+}

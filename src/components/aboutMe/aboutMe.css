@@ -1,0 +1,29 @@
+.aboutMe-margin{
+    padding: 0 1rem;
+    margin-bottom: 13rem;
+}
+
+.aboutMe--h2-text{
+    font-size: 10rem;
+    font-weight: 500;
+    line-height: 8rem;
+    color: #25ceaf;
+}
+
+.aboutMe--p-text{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: #278EA5;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutMe--h2-text{
+        font-size: 6em;
+        font-weight: 500;
+        line-height: 1em;
+    }
+
+    .aboutMe--p-text{
+        margin-top: 2rem;
+    }
+}

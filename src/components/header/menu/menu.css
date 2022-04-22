@@ -1,0 +1,30 @@
+.header--menu-position{
+    align-self: flex-end;
+}
+
+.header--menu-layout{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.menu--link-margin{
+    margin: .6rem 0;
+}
+
+.menu--link-bg{
+    background-color: #21E6C1;
+}
+
+.menu--link-text{
+    font-size: 1.8em;
+    font-weight: 600;
+    text-decoration: none;
+    padding: .6em;
+}
+
+@media screen and (max-width: 600px) {
+    .header--menu-position{
+        align-self: flex-start;
+    } 
+}

@@ -1,0 +1,34 @@
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 35vh 48vw;
+    display: inline-block;
+    position: relative;
+}
+
+.loader:before,
+.loader:after {
+    width: 100%; 
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: 1s infinite ease-in-out;
+}
+
+.loader-black { background-color: #25ceaf; }
+
+.loader-3:before {
+    content: '';
+    border: 10px solid #061529;
+    top: -10px;
+    left: -10px;
+    animation-name: loader3;
+}
+
+    @keyframes loader3 {
+        0% { transform: scale(0); }
+        100% { transform: scale(1); }
+    }

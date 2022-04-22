@@ -1,0 +1,45 @@
+#networks{
+  margin-bottom: 13rem;
+}
+
+.networksIconContainer-layout {
+  color: aqua;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  text-align: center;
+  padding: 0 1.3rem;
+}
+
+.networks--h2-text {
+  text-align: center;
+  color: #25ceaf;
+  margin-bottom: 1.5em;
+  font-size: 3.7em;
+}
+
+.networksIcon-size {
+  width: 70%;
+  height: 100%;
+}
+
+.networksIcon--Img-size {
+  width: 55%;
+  height: 80%;
+  transition: all 600ms;
+}
+
+.networksIcon--Img-size:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  .networks--h2-text {
+    font-size: 3.58em;
+  }
+
+  .networksIcon-size {
+    width: 60%;
+    height: 90%;
+  }
+}

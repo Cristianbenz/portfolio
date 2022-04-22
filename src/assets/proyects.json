@@ -1,0 +1,11 @@
+{
+  "proyects": [
+    {
+      "images": ["https://i.ibb.co/dQ3ZHtv/magichy-Index.jpg", "https://i.ibb.co/6tKhwL4/magichy-Detail.jpg", "https://i.ibb.co/4Z53wxh/magichy-Cart.jpg"],
+      "title": "Magichy",
+      "description": "Magichy is my first proyect with react. Is a bookshop that have functionalities like pagination, a cart and the integration of MercadoPago's API to pay for the books",
+      "github": "https://github.com/Cristianbenz/Tienda-de-Libros.git",
+      "weblink": "https://magichy.netlify.app"
+    }
+  ]
+}

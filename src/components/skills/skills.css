@@ -1,0 +1,40 @@
+#skills{
+  margin-bottom: 13rem;
+}
+
+.skillsIconContainer-layout {
+  color: aqua;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  text-align: center;
+}
+
+.skills--h2-text {
+  text-align: center;
+  color: #25ceaf;
+  margin-bottom: 1.5em;
+  font-size: 3.7em;
+}
+
+.skillIcon-size {
+  width: 70%;
+  height: 100%;
+}
+
+.skillIcon--Img-size {
+  width: 55%;
+  height: 70%;
+  transition: all 1s;
+}
+
+.skillIcon--Img-size:hover {
+  transform: rotateZ(360deg);
+}
+
+@media screen and (max-width: 600px) {
+  .skillIcon-size {
+    width: 60%;
+    height: 100%;
+  }
+}

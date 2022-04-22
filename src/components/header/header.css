@@ -1,0 +1,43 @@
+.header-size {
+  height: 100vh;
+  margin-bottom: 13rem;
+}
+
+.header-layout {
+  display: grid;
+  grid-template-columns: 0.27fr 0.68fr;
+}
+
+.header--img-size {
+  padding-top: 65%;
+  width: 29rem;
+}
+
+.header--img-position {
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.header--img-bg {
+  background-image: url("https://i.ibb.co/XVFWbRS/fotomia.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header-layout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header--img-size {
+    padding-top: 18rem;
+    width: 29rem;
+  }
+  
+  .header--img-position {
+    justify-self: flex-end;
+    align-self: center;
+  }
+}
