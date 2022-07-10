@@ -1,7 +1,7 @@
 import AboutMe from "../../components/aboutMe/AboutMe";
 import Header from "../../components/header/Header";
 import Proyects from "../../components/proyects/Proyects";
-import Skills from '../../components/skills/Skills'
+import Knowledges from "../../components/skills/Knowledges";
 import Networks from '../../components/networks/Networks'
 
 export default function Index ()  {
@@ -10,9 +10,8 @@ export default function Index ()  {
       <Header />
       <AboutMe />
       <Proyects />
-      <Skills />
+      <Knowledges />
       <Networks />
-
     </>
   );
 };

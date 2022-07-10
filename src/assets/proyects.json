@@ -3,9 +3,26 @@
     {
       "images": ["https://i.ibb.co/dQ3ZHtv/magichy-Index.jpg", "https://i.ibb.co/6tKhwL4/magichy-Detail.jpg", "https://i.ibb.co/4Z53wxh/magichy-Cart.jpg"],
       "title": "Magichy",
-      "description": "Magichy is my first proyect with react. Is a bookshop that have functionalities like pagination, a cart and the integration of MercadoPago's API to pay for the books",
+      "description": "Magichy is my first proyect with react. It's bookshop that have a list of books, you can navigate to their details, add them to the cart and make an order with a form.",
+      "tools": ["FireBase", "React Router", "CSS"],
       "github": "https://github.com/Cristianbenz/Tienda-de-Libros.git",
       "weblink": "https://magichy.netlify.app"
+    },
+    {
+      "images": ["https://i.ibb.co/VYtnb76/datafilmshome.png", "https://i.ibb.co/n7Mgg2J/login.png", "https://i.ibb.co/JC4J16F/moviedetails.png", "https://i.ibb.co/rQvTTbY/favourites.png"],
+      "title": "DataFilms",
+      "description": "Web site of movies information as a preparation for Alkemy's technical screening, you can get details of the movies and add them to a favourite list, also that have a sistem of login with JS web token.",
+      "tools": ["React Router", "Axios.", "Bootstrap", "CSS"],
+      "github": "https://github.com/Cristianbenz/DataFilms",
+      "weblink": "https://datafilms.netlify.app/"
+    },
+    {
+      "images": ["https://i.ibb.co/tQMYfCJ/avehome.png", "https://i.ibb.co/D9XDrJY/ave-Piezas.png", "https://i.ibb.co/ZSY9Vvq/ave-Piezas2.png", "https://i.ibb.co/r2dhWPT/piedras-Ave.png", "https://i.ibb.co/FJPMYnT/aboutave.png", "https://i.ibb.co/M92h6Fj/contactform.png", "https://i.ibb.co/XySYsTB/footerave.png", "https://i.ibb.co/xD7Bwz9/seguinosgallery.png"],
+      "title": "Ave Silver and Crystals",
+      "description": "Freelance job for being part of the 10% best students in React JS course of coderhouse. Is a static web that have the products and information of the entrepreneurship.",
+      "tools": ["React Router", "API call simulation", "Bootstrap", "CSS"],
+      "github": "https://github.com/FranCalderon67/Ave-Silver",
+      "weblink": "https://www.avesilver.com/"
     }
   ]
 }

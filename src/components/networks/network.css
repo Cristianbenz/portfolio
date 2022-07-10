@@ -34,9 +34,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .networks--h2-text {
-    font-size: 3.58em;
-  }
 
   .networksIcon-size {
     width: 60%;

@@ -8,20 +8,24 @@ export default function Proyects() {
   const [isLoading, setIsLoading] = useState(true)
   const [proyect, setProyect] = useState({});
   const { proyectName } = useParams();
+  
   useEffect(() => {
     setIsLoading(true)
+    const parseTitle = (title) => title.replaceAll(' ', '').toLowerCase()
+    const PROYECT = ProyectList.proyects.find(
+      (item) => parseTitle(item.title).includes(proyectName)
+    );
     new Promise((resolve) => {
-      const PROYECT = ProyectList.proyects.find(
-        (item) => item.title.replaceAll(' ', '').toLowerCase() === proyectName
-      );
-      resolve(PROYECT);
+      setTimeout(() => {
+        resolve(PROYECT);
+      }, 2000)
+      
     })
-    .then((response) => setProyect(response))
+    .then(setProyect)
     .finally( () => setIsLoading(false));
-  }, []);
+  }, [proyectName]);
 
-  return ( isLoading ? <Loader /> : <ProyectsDetails images={proyect.images} title={proyect.title} description={proyect.description} github={proyect.github} webLink={proyect.weblink}
-  />
+  return ( isLoading ? <Loader /> : <ProyectsDetails {...proyect} />
     
   );
 }

@@ -1,5 +1,5 @@
 .header-size {
-  height: 100vh;
+  height: auto;
   margin-bottom: 13rem;
 }
 
@@ -9,6 +9,7 @@
 }
 
 .header--img-size {
+  margin-top: 2rem;
   padding-top: 65%;
   width: 29rem;
 }
@@ -25,19 +26,34 @@
   background-position: center;
 }
 
-@media screen and (max-width: 600px) {
-  .header-layout {
-    display: flex;
-    flex-direction: column-reverse;
+@media screen and (min-width: 757px) and (max-width:1200px) {
+  .header-size {
+    margin-bottom: 8rem;
   }
 
   .header--img-size {
-    padding-top: 14rem;
-    width: 20rem;
+    padding-top: 30rem;
   }
   
   .header--img-position {
-    justify-self: flex-end;
+    margin-top: 2rem;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .header-layout {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .header--img-size {
+    padding-top: 30rem;
+  }
+  
+  .header--img-position {
+    margin-top: 2rem;
     align-self: center;
   }
 }

@@ -1,4 +1,4 @@
-import "./skills.css";
+import "./knowledges.css";
 
 const SKILLS = [
   {
@@ -26,12 +26,22 @@ const SKILLS = [
     name: "React Js",
     logoUrl: "https://i.ibb.co/3vVxQHP/atom.png",
   },
+  {
+    id: "S6",
+    name: "TypeScript",
+    logoUrl: "https://i.ibb.co/cLkG7P4/tsLogo.png",
+  },
+  {
+    id: "S7",
+    name: "React Native",
+    logoUrl: "https://i.ibb.co/3vVxQHP/atom.png",
+  }
 ];
 
-export default function Skills () {
+export default function Knowledges () {
   return (
     <section id="skills">
-      <h2 className="skills--h2-text" data-aos="zoom-in-up">SKILLS</h2>
+      <h2 className="skills--h2-text" data-aos="zoom-in-up">KNOWLEDGES</h2>
       <article className="skillsIconContainer-layout">
         {SKILLS.map((el) => (
           <div key={el.id} className="skillIcon-size">

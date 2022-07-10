@@ -31,7 +31,6 @@ export default function Networks() {
         {NETWORK_ICONS.map((el) => (
           <a href={el.href} target={'_blank'} rel="noreferrer" key={el.id} className="networksIcon-size">
             <img src={el.logoUrl} className="networksIcon--Img-size" alt={el.id} />
-            <h3>{el.name}</h3>
           </a>
         ))}
       </article>

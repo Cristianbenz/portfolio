@@ -1,13 +1,13 @@
-import "./slider.css";
 import { useState, useEffect } from "react";
+import "./slider.css";
 
-export default function Slider({ images }) {
+export default function Slider({ images, imagesAlt }) {
   const [position, setPosition] = useState(0);
   const [slide, setSlide] = useState(images[0]);
 
   useEffect(() => {
     setSlide(images[position]);
-  }, [position]);
+  }, [position, images]);
 
   function handleLess() {
     switch (position) {
@@ -39,7 +39,7 @@ export default function Slider({ images }) {
       >
         {'<'}
       </span>
-      <img className="slider--img-size" src={slide} />
+      <img className="slider--img-size" src={slide} alt={imagesAlt} />
       <span
         className="slider--button-size slider--button-layout slider--button-bg slider--button-text"
         onClick={handleMore}
