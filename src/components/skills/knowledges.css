@@ -38,4 +38,8 @@
     width: 60%;
     height: 100%;
   }
+
+  .skills--h2-text {
+    font-size: 3.1rem;
+  }
 }
